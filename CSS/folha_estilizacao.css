@@ -58,6 +58,7 @@ height: 318px;
     .conteudo_inicial{
 
        display: flex;
+       font-family: Arial, Helvetica, sans-serif;
 
     }
 
@@ -94,5 +95,109 @@ height: 318px;
     }
 
     .botao:hover{
-        background-color:#32bb82;
+        background-color:#2ea070;
+    }
+
+
+    .Iniciativas{
+        display: flex;
+        font-family: Arial, Helvetica, sans-serif;
+
+
+    }
+
+    .imagem_iniciativa{
+        
+        background-image: url(../Assets/roupas_iniciativas.png);
+       
+        background-repeat: no-repeat;
+        margin-top: 50px;
+        margin-left: 200px;
+
+    }
+
+    .ajustes_texto_imagem{
+
+        display: inline-flex;
+        align-items: left;
+        display: inline;
+        margin-left: 50px;
+        margin-top: 90px;
+    
+    }
+
+
+    .Forca_rs{
+        display: flex;
+        flex-direction: row-reverse;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: right;
+
+
+    }
+
+    .imagem_forca_rs{
+        
+        background-image: url(../Assets/doacao_separacao.png);
+       
+        background-repeat: no-repeat;
+        margin-top: 50px;
+        margin-right: 200px;
+
+    }
+
+    .ajustes_texto_imagem_doacao{
+
+        display: inline-flex;
+        align-items: right;
+        display: inline;
+        margin-right: 50px;
+        margin-top: 90px;
+    
+    }
+
+    .forcaRS_titulo{
+
+        text-align: right;
+
+
+    }
+
+
+    .Artigos{
+
+        margin-top: 70px;
+        display: flex;
+        font-family: Arial, Helvetica, sans-serif;
+
+
+    }
+
+    .imagem_artigos{
+        
+        background-image: url(../Assets/roupa_para_doaar.png);
+       
+        background-repeat: no-repeat;
+        margin-top: 50px;
+        margin-left: 200px;
+
+    }
+
+    .ajustes_texto_imagem_dooar{
+        
+        display: inline-flex;
+        align-items: left;
+        display: inline;
+        margin-left: 50px;
+        margin-top: 90px;
+    
+    }
+
+
+    .footer{
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        font-style: normal;
+        font-weight: 790;
+
     }
