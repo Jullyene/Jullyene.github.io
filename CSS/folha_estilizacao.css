@@ -56,9 +56,8 @@ height: 318px;
 
 
     .conteudo_inicial{
-
-       display: flex;
-       font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        font-family: Arial, Helvetica, sans-serif;
 
     }
 
@@ -102,7 +101,8 @@ height: 318px;
     .Iniciativas{
         display: flex;
         font-family: Arial, Helvetica, sans-serif;
-
+        margin-right: 200px;
+        text-align: justify;
 
     }
 
@@ -113,6 +113,7 @@ height: 318px;
         background-repeat: no-repeat;
         margin-top: 50px;
         margin-left: 200px;
+        
 
     }
 
@@ -132,6 +133,8 @@ height: 318px;
         flex-direction: row-reverse;
         font-family: Arial, Helvetica, sans-serif;
         text-align: right;
+        margin-left: 200px;
+
 
 
     }
@@ -169,6 +172,8 @@ height: 318px;
         margin-top: 70px;
         display: flex;
         font-family: Arial, Helvetica, sans-serif;
+        text-align: justify;
+        margin-right: 200px;
 
 
     }
