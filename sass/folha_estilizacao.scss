@@ -1,0 +1,81 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	list-style-type:none;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+
+.header {
+
+	width: 100%;
+	.menu {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		padding: 1rem;
+		justify-content: space-between;
+		align-items: center;
+		background: #ffd372;
+
+		.links-redirecionamento-interno {
+			display: flex;
+			gap: .5rem;
+		
+			.link-redirecionamento {
+				font-size: 0.875rem;
+				font-weight: 400;
+				text-decoration: none;
+				color: #000;
+			}
+		}
+	}
+}
+
+.section-banner {
+	> img {
+		width: 100%;
+		height: auto;
+	}
+}
+
+.sobre-nos {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 1rem;
+	gap: 1rem;
+
+	.line-vertical {
+		height: 5rem;
+		background: #ffd372;
+		width: .4rem;
+	}
+
+	.line-vertical2 {
+		height: 5rem;
+		background: #000;
+		width: .4rem;
+	}
+
+	.texto-sobre-nos {
+		font-size: 0.75rem;
+
+		p {
+			> span {
+				font-weight: 700;
+			}
+		}
+
+		.text {
+			text-align: end;
+		}
+	}
+}
