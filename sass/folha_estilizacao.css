@@ -26,20 +26,28 @@ img {
   justify-content: space-between;
   align-items: center;
   background: #ffd372;
+  align-items: center;
 }
-.header .menu .links-redirecionamento-interno {
+.header .menu .links .links-redirecionamento-interno {
   display: flex;
   gap: 0.5rem;
 }
-.header .menu .links-redirecionamento-interno .link-redirecionamento {
+.header .menu .links .links-redirecionamento-interno .link-redirecionamento {
   font-size: 0.875rem;
   font-weight: 400;
   text-decoration: none;
   color: #000;
 }
 @media screen and (min-width: 1008px) {
-  .header {
-    display: none;
+  .header .menu .links .links-redirecionamento-interno .link-redirecionamento {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+}
+@media screen and (min-width: 1008px) {
+  .header .menu {
+    justify-content: flex-start;
+    gap: 1rem;
   }
 }
 
@@ -50,44 +58,43 @@ img {
   width: 100%;
   height: auto;
 }
+
 @media screen and (min-width: 1008px) {
-  .section-banner {
-    display: none;
+  .sobre-nos-desktop {
+    display: flex;
   }
 }
-
-.sobre-nos {
+.sobre-nos-desktop .sobre-nos {
   display: flex;
   flex-direction: row;
   align-items: center;
   padding: 1rem;
   gap: 1rem;
 }
-.sobre-nos .line-vertical {
+.sobre-nos-desktop .sobre-nos .line-vertical {
   height: 5rem;
   background: #ffd372;
   width: 0.4rem;
 }
-.sobre-nos .line-vertical2 {
+.sobre-nos-desktop .sobre-nos .line-vertical2 {
   height: 5rem;
   background: #000;
   width: 0.4rem;
 }
-.sobre-nos .texto-sobre-nos {
+.sobre-nos-desktop .sobre-nos .texto-sobre-nos {
   font-size: 0.75rem;
 }
-.sobre-nos .texto-sobre-nos p > span {
-  font-weight: 700;
-}
-.sobre-nos .texto-sobre-nos .text {
-  text-align: end;
-}
 @media screen and (min-width: 1008px) {
-  .sobre-nos {
-    display: none;
+  .sobre-nos-desktop .sobre-nos .texto-sobre-nos {
+    font-size: 1rem;
   }
 }
-
+.sobre-nos-desktop .sobre-nos .texto-sobre-nos p > span {
+  font-weight: 700;
+}
+.sobre-nos-desktop .sobre-nos .texto-sobre-nos .text {
+  text-align: end;
+}
 .doar {
   display: flex;
   flex-direction: column;
@@ -106,8 +113,9 @@ img {
   text-transform: initial;
 }
 @media screen and (min-width: 1008px) {
-  .doar {
-    display: none;
+  .doar .button {
+    padding: 1rem;
+    font-size: 1rem;
   }
 }
 
@@ -138,8 +146,17 @@ img {
   margin-bottom: 1rem;
 }
 @media screen and (min-width: 1008px) {
+  .iniciativas .textos-iniciativas {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 1008px) {
   .iniciativas {
-    display: none;
+    flex-direction: row;
+  }
+  .iniciativas .imagem-iniciativas {
+    width: 50%;
+    padding: 5.4rem 0;
   }
 }
 
@@ -149,9 +166,4 @@ img {
   font-size: 0.75rem;
   display: flex;
   justify-content: center;
-}
-@media screen and (min-width: 1008px) {
-  .footer {
-    display: none;
-  }
 }/*# sourceMappingURL=folha_estilizacao.css.map */
